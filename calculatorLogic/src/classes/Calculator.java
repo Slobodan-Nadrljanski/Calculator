@@ -14,6 +14,7 @@ public class Calculator implements IOperacije, IAdditionalFeatures {
 	protected boolean _operationExecuted;
 	protected EnumOperations _operation;
 
+	protected int _nesto;
 	
 	public Calculator() {
 	
