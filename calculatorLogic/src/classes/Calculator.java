@@ -5,7 +5,8 @@ import interfaces.IAdditionalFeatures;
 import interfaces.IOperacije;
 
 public class Calculator implements IOperacije, IAdditionalFeatures {
-
+	
+	int a = 0;
 	protected double _firstNumber;
 	protected double _secondNumber;
 	protected double _result;
